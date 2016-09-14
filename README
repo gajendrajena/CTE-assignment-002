@@ -1,3 +1,8 @@
+
+-----------------------------------------------------------------------------------------------------------------------
+Task#2
+-----------------------------------------------------------------------------------------------------------------------
+
 Design a ruby class, an object of which has the behaviour of accept the following hash and constructs an ruby object like following mapping
 
 Atributes                   data from the input hash
@@ -88,7 +93,36 @@ payload 2:
 
 
 
+-----------------------------------------------------------------------------------------------------------------------
+Task#2
+-----------------------------------------------------------------------------------------------------------------------
+Create an instance method Array#my_map. This method has to copy the behavior of the original Array#map method.
+
+Examples
+
+a = [1, 2, 3, 4]
+
+a.my_map do |x|
+  x + 1
+  end
+
+#=> [2, 3, 4, 5]
+a = [1, 2, 3, 4]
+
+a.my_map(&:to_s)
+
+#=> ["1", "2", "3", "4"]
 
 
+-----------------------------------------------------------------------------------------------------------------------
+Task#2
+-----------------------------------------------------------------------------------------------------------------------
+Create an instance method Array#sort_arr. This method has to copy the behavior of the original Array#sort method.
 
+Examples
 
+a = [7, 2, 3, 4]
+
+a.sort_arr
+
+#=> [2, 3, 4, 7]
