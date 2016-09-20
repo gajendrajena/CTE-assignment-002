@@ -1,6 +1,10 @@
 All the tasks bellow are very simple and straght forward, should ideally take 2 hours to solve.
 We will be looking at your programming discipline, development practive. So expect you to follow TDD-test driven development(write unit tests for each of the problem.)
 
+Steps to provide your solutions:
+  1. solve the tasks following TDD.
+  2. Create a git project, add all the ruby files and specs
+  3. share with us the github url.
 
 ** NB: We won't consider any solution if you have not followed TDD. **
 
