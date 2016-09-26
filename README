@@ -41,7 +41,7 @@ Sample data hash 1
     "id": 49,
     "options": {
       "devices": "ios => e25454608b6097bc412be42ad9bf39797a698925d947b9d136cbb992f649cc96",
-      "Alert_message": " You have following notifications ",
+      "alert_message": " You have following notifications ",
       "badge_count":10,
       "created_at":"2015-07-20T06:28:36-05:00",
       "id":48,
